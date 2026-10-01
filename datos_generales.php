@@ -19,14 +19,14 @@ function obtenerDatosSiat(int $codigoPuntoVenta): array
         'codigoModalidad' => 2,
         'puntosVenta' => [
             0 => [
-                'cuis' => '19E5079E',
-                'cufd' => 'VBQUFBQi9fZUhBI0MTcwQkJGMkM2Q3nDmlhHRGJKYVMjI4NTRDREM4M0',
-                'codigoControl' => '93D430E2743BF74',
+                'cuis' => '617467AD',
+                'cufd' => 'FBQTlCX3Z9RkE=IxNDYyQjQyRUU=Q2VCYXNJQ0thVUMzc0NEU1QTFGMk',
+                'codigoControl' => '9D175E6CE54BF74',
             ],
             1 => [
-                'cuis' => '619326BD',
-                'cufd' => 'JBQUFCL19lSEE=I0MTcwQkJGMkM2Q0ttekdEYkphVUMjI4NTRDREM4M0',
-                'codigoControl' => '35FF90E2743BF74',
+                'cuis' => '8F90DC25',
+                'cufd' => 'VCQUE5Ql92fUZBIxNDYyQjQyRUU=Q0vCv21ySUNLYVMzc0NEU1QTFGMk',
+                'codigoControl' => '33020D6CE54BF74',
             ],
         ],
     ];

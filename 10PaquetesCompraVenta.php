@@ -17,9 +17,9 @@ $cuis = $siat['cuis'];
 
 
 $cantidad = 500;
-$codigoMotivoEvento = 7;
-$h="03";
-$m="13";
+$codigoMotivoEvento = 4;
+$h="09";
+$m="09";
 $s="00";
 
 //$codigoEvento=3629231;
@@ -46,7 +46,7 @@ $tipoFacturaDocumento=1;
 //$temision=1; //1 online, 2 offline, 3 masiva
 $cdf=1; // 1 con credito fiscal 2 sin credito fiscal 3 nota credito debito
 $nf=1;
-$cafc="1014E55842F8C";
+//$cafc="1014E55842F8C";
 
 for ($y=1;$y<=10;$y++){
     deleteFile();
@@ -120,7 +120,7 @@ for ($y=1;$y<=10;$y++){
         <montoGiftCard xsi:nil='true'/>
         <descuentoAdicional>1</descuentoAdicional>
         <codigoExcepcion xsi:nil='true'/>
-        <cafc>$cafc</cafc>
+        <cafc xsi:nil='true'/>
         <leyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los
             servicios que utilices.
         </leyenda>
@@ -128,8 +128,8 @@ for ($y=1;$y<=10;$y++){
         <codigoDocumentoSector>1</codigoDocumentoSector>
     </cabecera>
     <detalle>
-        <actividadEconomica>4721400</actividadEconomica>
-        <codigoProductoSin>1003064</codigoProductoSin>
+        <actividadEconomica>4772100</actividadEconomica>
+        <codigoProductoSin>1000610</codigoProductoSin>
         <codigoProducto>JN-131231</codigoProducto>
         <descripcion>JUGO DE NARANJA EN VASO</descripcion>
         <cantidad>1</cantidad>
